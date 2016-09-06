@@ -1,0 +1,30 @@
+
+.aBlock,.boom{
+	position:static;
+	float:left;
+	background-color: rgb(171,226,228);
+	width:30px;
+	height:30px;
+	border:white solid thin;
+	border-top-width:2.2px;
+	border-left-width:2.2px;
+	border-bottom-width:0px;
+	border-right-width:0px;
+	margin:0px;
+}
+
+.main{border-width:0px; }
+.gOver{
+	position:absolute;
+	top:0px;
+}
+.cover {
+	float:inherit;
+	z-index:-1;
+	width:20px;
+	height:20px;
+	border:0px;
+	margin:0px;
+	padding:0px;
+
+}
